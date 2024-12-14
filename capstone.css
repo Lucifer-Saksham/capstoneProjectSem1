@@ -29,7 +29,7 @@ header {
     text-align: left; 
     text-underline-position: from-font; 
     text-decoration-skip-ink: none; 
-    color: #DEDEDE; 
+    color: #1D221B; 
     display: flex; 
     justify-content: space-evenly; 
     margin-left: 910px; 
@@ -60,7 +60,7 @@ header {
     gap: 0px; 
     opacity: 0px; 
     font-size: 120px; 
-    color: #DEDEDE; 
+    color: #1D221B; 
     font-family: Domine; 
     font-weight: 700; 
     line-height: 120px; 
@@ -68,15 +68,7 @@ header {
     text-align: center; 
     text-underline-position: from-font; 
     text-decoration-skip-ink: none; 
-    animation-name: blur; 
-    animation-duration: 2s; 
-    animation-iteration-count: 1; 
-} 
-@keyframes 
-blur { 
-    0% { color: #000000; height: 0px; } 
-    100% { color: #DEDEDE; height: 240px; } 
-} 
+}  
 .img1 { 
     width: 1344px; 
     height: 672px; 
@@ -136,7 +128,7 @@ blur {
     text-align: left; 
     text-underline-position: from-font; 
     text-decoration-skip-ink: none; 
-    color: #DEDEDE; 
+    color: #1D221B; 
     margin-top: auto; 
     margin-bottom: auto; 
 } 
@@ -152,11 +144,11 @@ span {
     text-align: left; 
     text-underline-position: from-font; 
     text-decoration-skip-ink: none; 
-    color: #DEDEDE9E; 
+    color: 1D221B; 
     margin-top: -20px; 
 } 
 h2 { 
-    color: #DEDEDE; 
+    color: #1D221B; 
     width: 582px; 
     height: 260px; 
     gap: 0px; 
@@ -209,7 +201,7 @@ h2 {
     text-align: left; 
     text-underline-position: from-font; 
     text-decoration-skip-ink: none; 
-    color: #DEDEDE; 
+    color: #1D221B; 
 } 
 .reach { 
     width: Fill (534px)px; 
@@ -217,7 +209,7 @@ h2 {
     padding: 8px 0px 0px 0px; 
     gap: 0px; 
     opacity: 0px; 
-    color: #DEDEDE; 
+    color: #1D221B; 
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
     font-size: 20px; 
     font-weight: 400; 
