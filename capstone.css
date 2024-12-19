@@ -30,15 +30,26 @@ p {
   text-decoration: none;
   cursor: pointer;
   margin: 15px;
-  color: #1D221B;
+  color: rgba(29, 34, 27, 1);
   font-weight: 400;
   font-family: "Domine", serif;
   font-size: 28px;
 }
 .logo{
-  font-weight: 400;
-  font-family: "Domine", serif;
-  font-size: 28px;
+  width: 375px;
+  height: 27px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Syne;
+  font-size: 42px;
+  font-weight: 800;
+  line-height: 42px;
+  letter-spacing: -0.04em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+
+
 }
 
 .home {
@@ -52,8 +63,19 @@ p {
   margin: 100px 0 10px 0;
 }
 .header h1 {
-  font-weight: 700;
+  width: 1344px;
+  height: 240px;
+  gap: 0px;
+  opacity: 0px;    
+  font-family: Cutive;
   font-size: 120px;
+  font-weight: 400;
+  line-height: 120px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+
 }
 .image {
   margin: 20px;
@@ -79,17 +101,29 @@ p {
 }
 
 .frames p {
-  padding: 10px;
-  padding-top: 0px;
-  padding-bottom: 2px;
-  font-size: 17px;
+    width: 416px;
+    height: 24px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Kumbh Sans;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(29, 34, 27, 1);  
 }
+.frames p:nth-child(3){
+    font-family: Kumbh Sans;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(29, 34, 27, 0.62);
 
-.frames p{
-  color: #1D221B;
-  padding-top: 0px;
-  padding-bottom: 10px;
-  font-size: 13px;
 }
 
 .about {
@@ -100,11 +134,25 @@ p {
   text-wrap: wrap;
   margin: 20px;
 }
+.about h2{
+    width: 672px;
+    height: 312px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Cutive;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 52px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(29, 34, 27, 1);
+}
 
 .about div {
   /* text-align: justify; */
   width: 50vw; /*Remove While making it Resposive*/
-  font-size: 30px;
 }
 
 .contact {
@@ -115,8 +163,16 @@ p {
   align-items: center;
 }
 .contact div h3 {
-  font-size: 48px;
-  font-weight: 700;
+    font-family: Cutive;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 52px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(29, 34, 27, 1);
+    
 }
 .m {
   margin: 20px;
@@ -126,6 +182,17 @@ p {
   width: 40%;
   flex-wrap: wrap;
   justify-content: space-around;
+}
+.items p{
+    font-family: Kumbh Sans;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: -0.005em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none; 
+    color: rgba(29, 34, 27, 1);  
 }
 
 .getintouch {
