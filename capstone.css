@@ -36,8 +36,6 @@ p {
   font-size: 28px;
 }
 .logo{
-  width: 375px;
-  height: 27px;
   gap: 0px;
   opacity: 0px;
   font-family: Syne;
@@ -63,14 +61,12 @@ p {
   margin: 100px 0 10px 0;
 }
 .header h1 {
-  width: 1344px;
   height: 240px;
   gap: 0px;
   opacity: 0px;    
   font-family: Cutive;
   font-size: 120px;
   font-weight: 400;
-  line-height: 120px;
   letter-spacing: -0.02em;
   text-align: center;
   text-underline-position: from-font;
@@ -101,8 +97,6 @@ p {
 }
 
 .frames p {
-    width: 416px;
-    height: 24px;
     gap: 0px;
     opacity: 0px;
     font-family: Kumbh Sans;
@@ -135,7 +129,6 @@ p {
   margin: 20px;
 }
 .about h2{
-    width: 672px;
     height: 312px;
     gap: 0px;
     opacity: 0px;
@@ -287,9 +280,6 @@ footer button {
   }
 }
 @media (max-width: 889px) {
-  .header h1 {
-    font-size: 80px;
-  }
   .contact h3{
     font-size: 30px ;
   }
@@ -304,9 +294,6 @@ footer button {
   }
   .ham {
     display: block;
-  }
-  .nav-items a {
-    color: white !important;
   }
 }
 @media (max-width: 440px) {
@@ -347,4 +334,31 @@ footer button {
   .getintouch input {
     width: 50vw;
   }
+}
+
+@media (max-width: 1179px) {
+    .header h1 {
+        font-size: 82px;
+      }
+}
+@media (max-width: 967px) {
+    .header h1 {
+        font-size: 74px;
+      }
+}
+@media (max-width: 874px) {
+    .nav-items {
+        display: none;
+      }
+    .header h1 {
+        font-size: 50px;
+    }
+}
+
+
+
+@media (max-width:600px) {
+    .logo{
+        font-size: 24px;
+    }
 }
