@@ -10,7 +10,6 @@ body {
   font-family: "Domine", serif;
   font-weight: 300;
   font-style: normal;
-  scroll-behavior: smooth;
 }
 p {
   font-family: "Outfit", sans-serif;
@@ -21,9 +20,6 @@ p {
   align-items: center;
   justify-content: space-between;
   padding: 10px 20px;
-}
-.ham {
-  display: none;
 }
 
 .nav .nav-links a {
@@ -187,7 +183,7 @@ p {
     color: rgba(29, 34, 27, 1);  
 }
 
-.getintouch {
+.contact_me {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -195,16 +191,16 @@ p {
   margin-top: 10em;
 }
 
-.getintouch h3 {
+.contact_me h3 {
   text-align: center;
   width: 70%;
   margin: 40px 0;
   font-size: 34px;
 }
-.getintouch form {
+.contact_me form {
   display: flex;
 }
-.getintouch input {
+.contact_me input {
   width: 21vw;
   margin: 0 20px;
   padding: 10px 20px;
@@ -213,7 +209,7 @@ p {
   border-radius: 8px;
   font-family: "Roboto Mono", monospace !important;
 }
-.getintouch button {
+.contact_me button {
   font-family: "Roboto Mono", monospace !important;
   border: none;
   padding: 10px 20px;
@@ -221,13 +217,6 @@ p {
   font-size: 15px;
   background-color: #204F0A;
   color: white;
-  cursor: pointer;
-}
-.icons {
-  font-size: 43px;
-  margin-top: 35px;
-}
-.icons i {
   cursor: pointer;
 }
 .ml-5 {
@@ -325,13 +314,13 @@ footer button {
   .about div{
     width: auto;
   }
-  .getintouch h3 {
+  .contact_me h3 {
     font-size: 20px;
   }
 }
 
 @media (max-width: 950px) {
-  .getintouch input {
+  .contact_me input {
     width: 50vw;
   }
 }
